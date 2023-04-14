@@ -1,0 +1,245 @@
+﻿@using MySite.BL.Implementations
+@model SongBL
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ua">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​&nbsp;SONGS​​">
+    <meta name="description" content="">
+    <title>Songs</title>
+    <link rel="stylesheet" href="~/css/nicepage.css" media="screen">
+    <link rel="stylesheet" href="/css/Songs.css" media="screen">
+    <script class="u-script" type="text/javascript" src="/js/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="/js/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.5.0, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+
+
+    <script type="application/ld+json">
+        {
+                "context": "http://schema.org",
+                "type": "Organization",
+                "name": "",
+                "logo": "~/images/logo1.png",
+                "sameAs": [
+                        "https://facebook.com/name",
+                        "https://twitter.com/_Everjoi?t=hL2r9RI35TOLba-V_jisBA&s=35",
+                        "https://www.instagram.com/toha_koshuk/"
+                ]
+        }</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta name="twitter:site" content=" ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Songs">
+    <meta name="twitter:description" content="">
+    <meta property="og:title" content="Songs">
+    <meta property="og:type" content="website">
+    <meta data-intl-tel-input-cdn-path="intlTelInput/">
+</head>
+<body class="u-body u-xl-mode" data-lang="ua">
+    <header class="u-clearfix u-grey-60 u-header u-sticky u-sticky-6e91" id="sec-7858" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <a href="/home/index" class="u-align-left u-image u-logo u-image-1" data-image-width="1200" data-image-height="1200">
+                <img src="~/images/logo1.png" class="u-logo-image u-logo-image-1">
+            </a>
+            <h1 class="u-align-center u-text u-text-palette-5-dark-1 u-title u-text-1">
+                <span class="u-file-icon u-icon u-text-palette-5-light-2"><img src="images/831337-1fd539ba.png" alt=""></span>&nbsp;B​​IG DREAM HUB
+            </h1>
+            <nav class="u-align-right u-menu u-menu-hamburger u-menu-open-right u-offcanvas u-menu-1" data-responsive-from="XL">
+                <div class="menu-collapse" style="font-size: 1rem;">
+                    <a class="u-button-style u-nav-link" href="#" style="padding: 7px 8px; font-size: calc(1em + 14px);">
+                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8a8f"></use></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-8a8f" x="0px" y="0px" viewBox="0 0 302 302" style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content"><g><rect y="36" width="302" height="30"></rect><rect y="236" width="302" height="30"></rect><rect y="136" width="302" height="30"></rect>
+</g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                    </a>
+                </div>
+
+
+
+                <div class="u-custom-menu u-nav-container">
+                    <ul class="u-nav u-unstyled u-nav-1">
+                        <li class="u-nav-item">
+                            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Main.html" style="padding: 10px 20px;">Main</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Songs.html" style="padding: 10px 20px;">Songs</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Contacts.html" style="padding: 10px 35px 10px 20px;">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="u-custom-menu u-nav-container-collapse">
+                    <div class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-90 u-sidenav u-sidenav-1" data-offcanvas-width="213.75">
+                        <div class="u-inner-container-layout u-sidenav-overflow" style="padding: 15px 0px 0px;">
+                            <div class="u-menu-close"></div>
+                            <ul class="u-align-center u-custom-font u-font-courier-new u-nav u-popupmenu-items u-spacing-26 u-unstyled u-nav-2">
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="/home/index">Main</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="/song/songs">Songs</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="/contact/contacts">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="u-black u-menu-overlay u-opacity u-opacity-75"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <section class="u-clearfix u-grey-70 u-section-1" id="sec-948b">
+
+        <button class="u-border-2 u-border-palette-4-dark-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-dark-1 " id="filters-button">Find By</button>
+
+
+        <div id="filters-section" style="display: none;" class="filter-section">
+
+            <form asp-controller="song" asp-action="filteredsong" method="post">
+
+                <input type="text" name="title" id="name-filter" placeholder="Enter Title" style="color: black; background-color: grey;">
+                <input type="text" name="style" id="style-filter" placeholder="Enter style" style="color: black;background-color: grey;">
+                <input type="text" name="author" id="author-filter" placeholder="Enter author" style="color: black;background-color: grey;">
+                <button class="u-border-2 u-border-palette-4-dark-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-dark-1 " id="filters-button">Search</button>
+
+            </form>
+
+            
+
+        </div>
+
+        <script>
+            const filtersButton = document.getElementById("filters-button");
+            const filtersSection = document.getElementById("filters-section");
+
+            filtersButton.addEventListener("click", function () {
+                if (filtersSection.style.display === "none") {
+                    filtersSection.style.display = "block";
+                } else {
+                    filtersSection.style.display = "none";
+                }
+            });
+        </script>
+
+
+        @*---------------------------------------------*@
+        <div class="u-clearfix u-sheet u-sheet-1">
+
+            <div class="u-expanded-width u-list u-list-1">
+
+
+                <div class="u-repeater u-repeater-1">
+
+                     
+
+                    @foreach(var song in Model.GetFilteredSongs())
+                    {
+
+                        <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-1" data-image-width="2000" data-image-height="1333">
+                            <div class="u-container-layout u-similar-container u-container-layout-1">
+                                <h3 class="u-text u-text-default u-text-2"> @song.Title</h3>
+                                <p class="u-text u-text-default u-text-3">Authors: @string.Join(", ",song.Authors.Select(a => a.Name)) </p>
+                            </div>
+                        </div>
+
+
+                    }
+                    @if(Model.GetFilteredSongs().Count == 0)
+                    {
+                        <h5>Sorry, we cannot find the songs for this request. Please try again.</h5>
+                    }
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="u-clearfix u-sheet u-sheet-10">
+
+
+            @if(Model.PageNumber == 0 && Model.CountOfPage > 1)
+            {
+
+                <a href="@Url.ActionLink( "ShowFilteredSongs", "SongControllers", new {  page = Model.PageNumber + 1 }, null)" class="u-border-2 u-border-palette-4-dark-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-dark-1 u-btn-1">NEXT</a>
+                <a class="u-border-2 u-border-palette-4-white-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-light-1 u-btn-2">BACK</a>
+
+            }
+            else if(Model.CountOfPage <=1)
+            {
+                <a class="u-border-2 u-border-palette-4-white-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-dark-1 u-btn-1">NEXT</a>
+                <a class="u-border-2 u-border-palette-4-white-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-light-1 u-btn-2">BACK</a>
+            }
+            else if(Model.PageNumber == Model.CountOfPage - 1)
+            {
+                <a class="u-border-2 u-border-palette-4-white-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-dark-1 u-btn-1">NEXT</a>
+                <a href="@Url.ActionLink("ShowFilteredSongs", "SongControllers", new {  page = Model.PageNumber - 1 }, null)" class="u-border-2 u-border-palette-4-light-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-light-1 u-btn-2">BACK</a>
+
+            }
+            else
+            {
+
+                <a href="@Url.ActionLink("ShowFilteredSongs", "SongControllers", new {  page = Model.PageNumber + 1 }, null)" class="u-border-2 u-border-palette-4-dark-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-dark-1 u-btn-1">NEXT</a>
+                <a href="@Url.ActionLink( "ShowFilteredSongs", "SongControllers", new {  page = Model.PageNumber - 1 }, null)" class="u-border-2 u-border-palette-4-light-1 u-btn u-btn-round u-button-style u-hover-palette-2-base u-none u-radius-6 u-text-hover-white u-text-palette-4-light-1 u-btn-2">BACK</a>
+            }
+
+        </div>
+
+    </section>
+
+
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-528b">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <div class="u-align-center u-social-icons u-spacing-30 u-social-icons-1">
+                <a class="u-social-url" title="facebook" target="_blank" href="https://facebook.com/name">
+                    <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white u-icon-1">
+                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 96.124 96.123" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f954"></use></svg>
+                        <svg class="u-svg-content" viewBox="0 0 96.124 96.123" x="0px" y="0px" id="svg-f954" style="enable-background:new 0 0 96.124 96.123;">
+                            <g>
+                                <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803   c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654   c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246   c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"></path>
+                            </g>
+                        </svg>
+                    </span>
+                </a>
+                <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/_Everjoi?t=hL2r9RI35TOLba-V_jisBA&amp;s=35">
+                    <span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="-21 -81 681.33464 681" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-94f6"></use></svg><svg class="u-svg-content" viewBox="-21 -81 681.33464 681" id="svg-94f6"><path d="m200.964844 515.292969c241.050781 0 372.871094-199.703125 372.871094-372.871094 0-5.671875-.117188-11.320313-.371094-16.9375 25.585937-18.5 47.824218-41.585937 65.371094-67.863281-23.480469 10.441406-48.753907 17.460937-75.257813 20.636718 27.054687-16.230468 47.828125-41.894531 57.625-72.488281-25.320313 15.011719-53.363281 25.917969-83.214844 31.808594-23.914062-25.472656-57.964843-41.402344-95.664062-41.402344-72.367188 0-131.058594 58.6875-131.058594 131.03125 0 10.289063 1.152344 20.289063 3.398437 29.882813-108.917968-5.480469-205.503906-57.625-270.132812-136.921875-11.25 19.363281-17.742188 41.863281-17.742188 65.871093 0 45.460938 23.136719 85.605469 58.316407 109.082032-21.5-.660156-41.695313-6.5625-59.351563-16.386719-.019531.550781-.019531 1.085937-.019531 1.671875 0 63.46875 45.171875 116.460938 105.144531 128.46875-11.015625 2.996094-22.605468 4.609375-34.558594 4.609375-8.429687 0-16.648437-.828125-24.632812-2.363281 16.683594 52.070312 65.066406 89.960937 122.425781 91.023437-44.855469 35.15625-101.359375 56.097657-162.769531 56.097657-10.5625 0-21.003906-.605469-31.2617188-1.816407 57.9999998 37.175781 126.8710938 58.871094 200.8867188 58.871094"></path></svg></span>
+                </a>
+                <a class="u-social-url" title="instagram" target="_blank" href="https://www.instagram.com/toha_koshuk/">
+                    <span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white u-icon-3">
+                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3a7b"></use></svg>
+                        <svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-3a7b" style="enable-background:new 0 0 512 512;">
+                            <g>
+                                <path d="M256,152c-57.9,0-105,47.1-105,105s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z M256,152   c-57.9,0-105,47.1-105,105s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z M437,0H75C33.6,0,0,33.6,0,75v362   c0,41.4,33.6,75,75,75h362c41.4,0,75-33.6,75-75V75C512,33.6,478.4,0,437,0z M256,392c-74.399,0-135-60.601-135-135   c0-74.401,60.601-135,135-135s135,60.599,135,135C391,331.399,330.399,392,256,392z M421,122c-16.5,0-30-13.5-30-30s13.5-30,30-30   s30,13.5,30,30S437.5,122,421,122z M256,152c-57.9,0-105,47.1-105,105s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z    M256,152c-57.9,0-105,47.1-105,105s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z M256,152c-57.9,0-105,47.1-105,105   s47.1,105,105,105s105-47.1,105-105S313.9,152,256,152z"></path>
+                            </g>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+            <p class="u-small-text u-text u-text-variant u-text-1">
+                <span class="u-file-icon u-icon u-text-white"><img src="images/9802498-6b088ab2.png" alt=""></span>&nbsp; © 2023 Big Dream Hub.All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

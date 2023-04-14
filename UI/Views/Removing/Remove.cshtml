@@ -1,0 +1,27 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using MySite.Models;
+@model Song;
+
+
+
+<form method="post" asp-action="RemoveSong" asp-controller="Admin">
+
+    <div>
+        <label for="Name">Title:</label>
+        <input type="text" id="songName" asp-for="Title">
+    </div>
+
+
+    <button type="submit">Remove song</button>
+    <button type="button" onclick="window.location.href='/home/index'">Home</button>
+
+    @if(TempData["Message"] != null)
+    {
+        <div class="alert alert-success">@TempData["Message"]</div>
+    } 
+
+</form>
+
+
+<h1>There we can add for example ability to remove song by name and author etc</h1>
+

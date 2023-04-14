@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MySite
+build_property.RootNamespace = MySite
+build_property.ProjectDir = C:\Users\kosho\source\repos\MySite\MySite\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\kosho\source\repos\MySite\MySite
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/kosho/source/repos/MySite/MySite/UI/Views/Adding/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcVmlld3NcQWRkaW5nXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kosho/source/repos/MySite/MySite/UI/Views/Admin/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcVmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kosho/source/repos/MySite/MySite/UI/Views/Contact/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcVmlld3NcQ29udGFjdFxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kosho/source/repos/MySite/MySite/UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kosho/source/repos/MySite/MySite/UI/Views/Removing/Remove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcVmlld3NcUmVtb3ZpbmdcUmVtb3ZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kosho/source/repos/MySite/MySite/UI/Views/Song/Songs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcVmlld3NcU29uZ1xTb25ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kosho/source/repos/MySite/MySite/UI/Views/Song/SongWithFilter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = VUlcVmlld3NcU29uZ1xTb25nV2l0aEZpbHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
